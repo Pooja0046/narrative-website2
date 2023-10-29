@@ -118,6 +118,13 @@ h1, .h1 {
   }
 }
 
+.outlined-text {
+  font-size: 36px; /* Adjust the size as needed */
+  font-weight: bold;
+  color: #fff; /* Text color */
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
 h2, .h2 {
   font-size: calc(1.325rem + 0.9vw);
 }
