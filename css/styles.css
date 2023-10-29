@@ -3960,6 +3960,13 @@ textarea.form-control-lg {
     transition: none;
   }
 }
+
+.nav-link {
+  color: #fff; /* Text color */
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+  /* You can adjust the text-shadow values to control the size and color of the shadow */
+}
+
 .nav-link:hover, .nav-link:focus {
   color: #c34e2e;
 }
