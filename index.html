@@ -52,17 +52,70 @@
             </div>
         </header>
 
-        <!-- About-->
-        <section class="page-section bg-primary" id="about">
-            <div class="container px-4 px-lg-5">
-                <div class="row gx-4 gx-lg-5 justify-content-center">
-                    <div class="col-lg-8 text-center">
-                        <h2 class="text-white mt-0">Banner</h2>
-                        <hr class="divider divider-light" />
-                        <p class="text-white-75 mb-4">Lorem Ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</p>
+
+        
+       
+           <!-- slideshow-->
+        <style>
+            /* text color */
+            .carousel-caption h5,
+            .carousel-caption p {
+              color: #fffbfb; 
+            }
+          </style>
+           <!-- About-->
+           <section class="page-section bg-primary mt-3" id="about" style="height: 60vh; position: relative;">
+           <div class="carousel slide" data-bs-ride="carousel" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="row align-items-center">
+                  <div class="col-md-6 mt-2">
+                    <img src="https://source.unsplash.com/LAaSoL0LrYs/1920x1080" class="d-block w-100" alt="First slide">
+                  </div>
+                  <div class="col-md-6">
+                    <div class="carousel-caption">
+                      <h5>First slide label</h5>
+                      <p>Hello there.</p>
                     </div>
+                  </div>
                 </div>
+              </div>
+              <div class="carousel-item">
+                <div class="row align-items-center">
+                  <div class="col-md-6 mt-2">
+                    <img src="https://source.unsplash.com/bF2vsubyHcQ/1920x1080" class="img-fluid" alt="Second slide">
+                  </div>
+                  <div class="col-md-6">
+                    <div class="carousel-caption">
+                      <h5>Second slide label</h5>
+                      <p>Some representative placeholder content for the second slide.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="row align-items-center">
+                  <div class="col-md-6 mt-2">
+                    <img src="https://source.unsplash.com/szFUQoyvrxM/1920x1080" class="img-fluid" alt="Third slide">
+                  </div>
+                  <div class="col-md-6">
+                    <div class="carousel-caption">
+                      <h5>Third slide label</h5>
+                      <p>Some representative placeholder content for the third slide.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
         </section>
 
         <!-- Services-->

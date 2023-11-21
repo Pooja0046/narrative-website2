@@ -5999,6 +5999,28 @@ textarea.form-control-lg {
   color: #212529;
 }
 
+/* Carousel
+------------------------- */
+
+.carousel-item {
+  height: 100vh;
+  min-height: 350px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+/* Carousel End
+------------------------- */
+
+
+
+
+
 .carousel {
   position: relative;
 }
@@ -6184,15 +6206,13 @@ textarea.form-control-lg {
   opacity: 1;
 }
 
-.carousel-caption {
+.custom-caption {
   position: absolute;
-  right: 15%;
-  bottom: 1.25rem;
-  left: 15%;
-  padding-top: 1.25rem;
-  padding-bottom: 1.25rem;
-  color: #fff;
-  text-align: center;
+  top: 50%;
+  right: 10%; 
+  transform: translateY(-50%);
+  background-color: rgba(255, 255, 255, 0.8); 
+  padding: 15px;
 }
 
 .carousel-dark .carousel-control-prev-icon,
@@ -11311,7 +11331,7 @@ body {
 }
 
 .page-section {
-  padding: 10rem 0;
+  padding: 8rem 0;
 }
 
 .text-white-75 {
