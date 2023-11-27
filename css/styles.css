@@ -607,7 +607,7 @@ progress {
 }
 
 .img-fluid {
-  max-width: 100%;
+  width: 100%;
   height: auto;
 }
 
@@ -6017,8 +6017,14 @@ textarea.form-control-lg {
 /* Carousel End
 ------------------------- */
 
+/*custom size for images within carousel*/
+.carousel-item img.custom-carousel-img {
+  width: 724.4px; 
+  height: 407.48px; 
+}
 
 
+   
 
 
 .carousel {
