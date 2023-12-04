@@ -76,6 +76,21 @@
   }
 }
 
+.border-rounded {
+  border: 2px solid #0c4128; /* colour */
+  border-radius: 10px; /*rounded edges */
+  padding: 20px; /*padding */
+}
+
+/*Image size for bordered section*/
+.section-image {
+  max-width: 100%; /* Ensures the image doesn't exceed its container */
+  height: auto; /* Maintains the image's aspect ratio */
+  display: block; 
+  margin-bottom: 15px; 
+}
+
+
 body {
   margin: 0;
   font-family: var(--bs-body-font-family);
@@ -6020,7 +6035,7 @@ textarea.form-control-lg {
 /*custom size for images within carousel*/
 .carousel-item img.custom-carousel-img {
   width: 724.4px; 
-  height: 407.48px; 
+  height: 479.48px; 
 }
 
 
@@ -6230,6 +6245,11 @@ textarea.form-control-lg {
 }
 .carousel-dark .carousel-caption {
   color: #000;
+}
+
+.carousel-caption {
+  top: 40%;
+  transform: translateY(-50%);
 }
 
 @-webkit-keyframes spinner-border {
