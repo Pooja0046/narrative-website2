@@ -76,6 +76,13 @@
   }
 }
 
+/*border for images*/
+.bordered-image {
+  border: 2px solid #0c4128; 
+  border-radius: 5px; 
+  padding: 0px; 
+}
+
 .border-rounded {
   border: 2px solid #0c4128; /* colour */
   border-radius: 10px; /*rounded edges */
@@ -89,6 +96,8 @@
   display: block; 
   margin-bottom: 15px; 
 }
+
+
 
 
 body {
@@ -688,6 +697,20 @@ progress {
     max-width: 1320px;
   }
 }
+
+/* margin for about events */
+.page-section2 {
+  margin-top: 10px; /* Adjust the top margin */
+  margin-bottom: 10px; /* Adjust the bottom margin */
+}
+
+/* If needed, adjust margins within the container */
+.container2 {
+  margin-top: 10px; /* Adjust the top margin */
+  margin-bottom: 10px; /* Adjust the bottom margin */
+}
+
+
 .row {
   --bs-gutter-x: 1.5rem;
   --bs-gutter-y: 0;
