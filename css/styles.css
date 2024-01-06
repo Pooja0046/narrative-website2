@@ -97,6 +97,66 @@
   margin-bottom: 15px; 
 }
 
+/*intro for agriculture*/
+.intro {
+  text-align: center;
+  padding: 100px 20px;
+  color: #fff;
+  border: 4px solid #556B2F; /* Border properties */
+  border-radius: 20px; /* Rounded corners */
+  max-width: 900px; /* Limiting the width */
+  margin: 50px auto; /* Centering the section */
+  background: rgba(85, 107, 47, 0.7); /* Background color with transparency */
+}
+
+.image-title {
+  text-align: center;
+}
+
+.image-container {
+  position: relative;
+  width: 600px; /* Width of the image */
+  height: 400px; /* Height of the image */
+  margin-bottom: 20px; /* Space between images */
+  overflow: hidden;
+}
+
+.image-container img {
+  width: 600px; /* Ensure the image takes up the entire container width */
+  height: 100%; /* Ensure the image takes up the entire container height */
+  object-fit: cover;
+}
+
+.text-box-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 600px; /* Match the width of the container */
+  height: 100%; /* Match the height of the container */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  pointer-events: none; /* Allow pointer events to go through to the image */
+}
+
+.text-box {
+  width: 600px; /* Match the width of the container */
+  height: 100%; /* Match the height of the container */
+  resize: none;
+  box-sizing: border-box;
+  padding: 20px;
+  background: rgba(161, 2, 2, 0.8);
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.image-container:hover .text-box {
+  opacity: 1;
+}
+
+
+
+
 
 
 
