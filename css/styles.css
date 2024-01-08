@@ -326,6 +326,102 @@
   }
 }
 
+/*heading for interview page*/
+
+/* Styles for the heading container */
+.section-heading {
+  text-align: center;
+  margin-bottom: 20px; /* Adjust margin as needed */
+  padding-top: 200px; /*position of line*/
+}
+
+/* Styles for the heading text */
+.section-heading h2 {
+  position: relative;
+  display: inline-block;
+  padding-bottom: 5px; /* Adjust space between text and line */
+}
+
+/* Styles for the arrow line */
+.arrow-line {
+  width: 380px; /* Adjust line width */
+  height: 2px; /* Adjust line thickness */
+  background-color: #184228; /* Change line color */
+  margin: 0 auto; /* Center the line */
+  position: relative;
+}
+
+/* Styles for the arrows */
+.arrow-line::before,
+.arrow-line::after {
+  content: "";
+  position: absolute;
+  width: 15px; /* Adjust arrow size */
+  height: 15px; /* Adjust arrow size */
+  top: -7px; /* Adjust vertical position */
+  background-color: #184228; /* Change arrow color */
+}
+
+/* Arrow on the left side */
+.arrow-line::before {
+  left: -7.5px; /* Half the arrow width for proper positioning */
+  transform: rotate(45deg);
+}
+
+/* Arrow on the right side */
+.arrow-line::after {
+  right: -7.5px; /* Half the arrow width for proper positioning */
+  transform: rotate(-45deg);
+}
+
+/*ARTICLE SECTION- AGRICULTURE*/
+
+/* Styles for the image with text container */
+.image-with-text3 {
+  display: flex;
+  align-items: center;
+  max-width: 1000px; /* Adjust max-width as needed */
+  margin: 0 auto; /* Center the container */
+}
+
+/* Styles for the text container */
+.text-container3 {
+  background: rgb(85, 107, 47,0.7); /* Adjust background color */
+  color: white; /* Adjust text color */
+  padding: 20px;
+  width: 500px; /*width of text box when NOT interacted with*/
+  overflow: hidden;
+  transition: width 0.3s ease;
+  max-width: 800px; /* Adjust maximum width */
+}
+
+/* Styles for the image container */
+.image-container3 {
+  position: relative;
+  overflow: hidden;
+  width: 1000px; /* Adjust image container width */
+  transition: all 0.3s ease;
+}
+
+/* Styles for the image */
+.image-container3 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; 
+  transition: transform 0.3s ease;
+}
+
+/* Hover effect: Text slides in */
+.image-with-text3:hover .text-container3 {
+  width: 2000px; /* Adjust text container width */
+  height: 500px;
+}
+
+/* Hover effect: Image zooms in */
+.image-with-text3:hover .image-container3 img {
+  transform: scale(1.1); /* Adjust image scale */
+}
+
 
 
 
