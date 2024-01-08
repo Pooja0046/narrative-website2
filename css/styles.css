@@ -3391,6 +3391,9 @@ textarea.form-control-lg {
 .btn:hover {
   color: #212529;
 }
+
+
+
 .btn-check:focus + .btn, .btn:focus {
   outline: 0;
   box-shadow: 0 0 0 0.25rem rgba(244, 98, 58, 0.25);
@@ -3410,6 +3413,13 @@ textarea.form-control-lg {
   background-color: #062206;
   border-color: #062206;
 }
+
+.btn-primary2:hover {
+  color: #fff;
+  background-color: #1e0f02;
+  border-color: #1e0f02;
+}
+
 .btn-check:focus + .btn-primary, .btn-primary:focus {
   color: #fff;
   background-color: #062206;
@@ -4920,6 +4930,14 @@ textarea.form-control-lg {
 .card-body {
   flex: 1 1 auto;
   padding: 1rem 1rem;
+}
+
+.card-body2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(24, 66, 40, 0.7);
+  /* Add other necessary styles */
 }
 
 .card-title {
