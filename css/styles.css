@@ -854,7 +854,7 @@ legend + * {
   margin-left: 0;
   text-align: center;
   color: white;
-  border: 7px solid #e9ecef;
+  border: 7px solid rgba(24, 66, 40,0.5);
   border-radius: 100%;
   background-color: #ffc800;
 }
