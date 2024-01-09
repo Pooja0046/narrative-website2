@@ -366,7 +366,7 @@ box-shadow: 0px 4px 8px rgba(12, 65, 40, 0.9);
 
 /* Styles for the arrow line */
 .arrow-line {
-  width: 380px; /* Adjust line width */
+  width: 300px; /* Adjust line width */
   height: 2px; /* Adjust line thickness */
   background-color: #184228; /* Change line color */
   margin: 0 auto; /* Center the line */
@@ -6624,6 +6624,7 @@ textarea.form-control-lg {
   background-size: cover;
   margin-bottom: 0;
   padding-bottom: 0;
+  margin-left: auto;
 }
 
 /* Carousel End
