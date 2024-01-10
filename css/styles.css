@@ -306,6 +306,20 @@ box-shadow: 0px 4px 8px rgba(12, 65, 40, 0.9);
   margin: 20px 0;
 }
 
+.bubble-text {
+  display: inline-block;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: rgba(24, 66, 40, 0.6); /* Adjust alpha for transparency */
+  border-radius: 20px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2); /* Add a shadow effect */
+}
+
+.dotted-line {
+  border-bottom: 15px dotted #ffffff; /* 1px dotted line with black color */
+  margin: 20px 0; /* Margin for spacing */
+}
+
 .line {
   height: 3px;
   width: 50px; /* line length */
@@ -12019,7 +12033,7 @@ hr.divider-light {
     color: #fff;
   }
   #mainNav .navbar-nav .nav-item .nav-link {
-    color: rgb(85, 107, 47,0.7);
+    color: rgb(255, 255, 255 ,0.7);
     padding: 0 1rem;
   }
   #mainNav .navbar-nav .nav-item .nav-link:hover {
