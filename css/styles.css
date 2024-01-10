@@ -307,13 +307,15 @@ box-shadow: 0px 4px 8px rgba(12, 65, 40, 0.9);
 }
 
 .bubble-text {
+  margin-left: 10px;
   display: inline-block;
   align-items: center;
-  padding: 10px 20px;
-  background-color: rgba(24, 66, 40, 0.6); /* Adjust alpha for transparency */
+  padding: 10px 30px;
+  background-color: rgba(24, 66, 40, 0.7); /* Adjust alpha for transparency */
   border-radius: 20px;
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2); /* Add a shadow effect */
 }
+
 
 .dotted-line {
   border-bottom: 15px dotted #ffffff; /* 1px dotted line with black color */
@@ -4581,13 +4583,13 @@ textarea.form-control-lg {
   isolation: isolate;
 }
 .nav-tabs .nav-link.disabled {
-  color: #6c757d;
+  color: #000;
   background-color: transparent;
   border-color: transparent;
 }
 .nav-tabs .nav-link.active,
 .nav-tabs .nav-item.show .nav-link {
-  color: #495057;
+  color: #062206;
   background-color: #fff;
   border-color: #dee2e6 #dee2e6 #fff;
 }
@@ -12047,13 +12049,13 @@ hr.divider-light {
     background-color: #fff;
   }
   #mainNav.navbar-shrink .navbar-brand {
-    color: #212529;
+    color: #062206;
   }
   #mainNav.navbar-shrink .navbar-brand:hover {
     color: #f4623a;
   }
   #mainNav.navbar-shrink .navbar-nav .nav-item .nav-link {
-    color: #212529;
+    color: #fff;
   }
   #mainNav.navbar-shrink .navbar-nav .nav-item .nav-link:hover {
   color: #0c4128;
