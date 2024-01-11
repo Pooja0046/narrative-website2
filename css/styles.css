@@ -1240,6 +1240,13 @@ progress {
   }
 }
 
+.page-section3 {
+  border: 2px solid #3498db; /* Set the border color and width */
+  padding: 90px; /* Add padding for spacing */
+
+}
+
+
 /* margin for about events */
 .page-section2 {
   margin-top: 10px; /* Adjust the top margin */
