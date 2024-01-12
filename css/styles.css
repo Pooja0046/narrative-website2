@@ -6667,8 +6667,9 @@ textarea.form-control-lg {
 
 /*custom size for images within carousel*/
 .carousel-item img.custom-carousel-img {
-  width: 724.4px; 
-  height: 479.48px; 
+  width: 100%; 
+  height: 100%;
+  margin-bottom: 0%; 
 }
 
 
@@ -6883,6 +6884,12 @@ textarea.form-control-lg {
 .carousel-caption {
   top: 40%;
   transform: translateY(-50%);
+}
+
+@media (max-width: 600px) {
+  .carouselcaption2 {
+    flex-direction: column; /* Change to a vertical layout for small screens */
+  }
 }
 
 @-webkit-keyframes spinner-border {
