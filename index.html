@@ -14,7 +14,9 @@
         <link href="https://fonts.googleapis.com/css?family=Merriweather+Sans:400,700" rel="stylesheet" />
         <link href="https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic" rel="stylesheet" type="text/css" />
         <!--NEW FONT-->
-        <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bungee&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&display=swap" rel="stylesheet">
         <!--Animate CSS-->
         <link
         rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
@@ -30,11 +32,9 @@
                 <button class="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ms-auto my-2 my-lg-0">
-                        <li class="nav-item"><a class="nav-link bubble-text" href="index.html">Home</a></li>
-                        <li class="nav-item"><a class="nav-link bubble-text" href="page-one.html">Agriculture</a></li>
-                        <li class="nav-item"><a class="nav-link bubble-text" href="page-two.html">Farming Practices</a></li>
-                        <li class="nav-item"><a class="nav-link bubble-text" href="page-three.html">Articles/ interviews</a></li>
-                        <li class="nav-item"><a class="nav-link bubble-text" style=" width: calc(100% + 10px);" href="page-four.html">Events</a></li>
+                        <li class="nav-item"><a href="index.html"></a></li>
+                        <li class="nav-item"><a href="page-one.html"></a></li>
+                        <li class="nav-item"><a href="page-two.html"></a></li>
                     </ul>
                 </div> 
             </div>
@@ -44,171 +44,11 @@
             <div class="container px-4 px-lg-5 h-100">
                 <div class="row gx-4 gx-lg-5 h-100 align-items-center justify-content-center text-center">
                     <div class="col-lg-8 align-self-end">
-                        <h1 class="bubble-text text-white animate__animated animate__fadeIn">Green Grove</h1> 
+                        <h1 class="bubble-text text-white animate__animated animate__fadeIn"> <img src="assets/img/soda-logo.png.png" alt=""></h1> 
                     </div>
                     <div class="col-lg-8 align-self-baseline">
                     </div>
                 </div>
             </div>
         </header>
-
-        <!--welcome text-->
-        <section class="text-section">
-            <div class="line left-line"></div>
-            <div class="text"><h2>welcome!</h2></div>
-            <div class="line right-line"></div>
-        </section>
-
-
-           <!-- CAROUSEL-->
-        <style>
-            /* text color */
-            .carousel-caption h5,
-            .carousel-caption p {
-              color: #fffbfb; 
-            }
-          </style>
-           <!-- background for carousel-->
-<section class="page-section bg-primary mt-2" id="about" style="height: 71vh; background-color: rgba(5, 66, 5, 0.7); position: relative;">
-    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; z-index: 1;">
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <div class="row align-items-center">
-                    <!--First slide-->
-                    <div class="col-md-6 mt-2 order-md-1 order-2">
-                        <img src="assets/img/tree.jpg" class="img-fluid custom-carousel-img" style="margin-left: 7px; max-width: 100%; max-height: 100%;" alt="image of trees.">
-                    </div>
-                    <div class="col-md-6 order-md-2 order-1">
-                        <div class="carousel-caption mt-5">
-                            <h5>Our Story...</h5>
-                            <p>Founded by a group of environmentally conscious farmers and enthusiasts, Green Grove was born from the belief that sustainable farming practices hold the key to a healthier future for our planet and its inhabitants. Read more about our story:</p>
-                            <a class="btn btn-primary btn-xl" href="#aboutus">Find Out More</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="carousel-item">
-                <div class="row align-items-center">
-                    <!--Second slide-->
-                    <div class="col-md-6 mt-2 order-md-1 order-2">
-                        <img src="assets/img/moretrees.jpg" class="img-fluid custom-carousel-img" style="margin-left: 7px; max-width: 100%;" alt="image of more trees.">
-                    </div>
-                    <div class="col-md-6 order-md-2 order-1">
-                        <div class="carousel-caption">
-                            <h5>Our Mission...</h5>
-                            <p>At Green Grove, our mission is to champion sustainable agriculture by providing valuable resources, knowledge, and inspiration to farmers, gardeners, and eco-conscious individuals worldwide.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="carousel-item">
-                <div class="row align-items-center">
-                    <!--Third slide-->
-                    <div class="col-md-6 mt-2 order-md-1 order-2">
-                        <img src="assets/img/foresttrees.jpg" class="img-fluid custom-carousel-img" style="margin-left: 7px; max-width: 100%;" alt="image of forest trees.">
-                    </div>
-                    <div class="col-md-6 order-md-2 order-1">
-                        <div class="carousel-caption">
-                            <h5>Get Involved...</h5>
-                            <p>Join us in our journey toward a greener, more sustainable future. Whether you're a farmer, gardener, researcher, or simply passionate about sustainability, Green Grove welcomes you to be a part of our community!</p>
-                            <p>Together, let's cultivate change and nurture a more sustainable world.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Carousel navigation controls -->
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-        </button>
-    </div>
-</section>
-
-
-        <!-- options-->
-<section class="page-section" id="services">
-    <div class="container px-4 px-lg-5">
-        <h2 class="text-center mt-0">what would you like to know?</h2>
-        <hr class="divider" />
-        <div class="row gx-3 gx-lg-5">
-            <div class="col-lg-4 col-md-6 text-center">
-                <div class="mt-5 border-rounded">
-                    <img src="assets/img/wheat2.jpg" alt="Image of wheat." class="section-image">
-                    <h3 class="h4 mb-2" class="font-weight-bold">AGRICULTURE</h3>
-                    <p class="text-muted mb-4">Explore what agriculture means and what challenges it faces as of today and what solutions are in place.</p>
-                    <a class="btn btn-primary btn-xl" href="page-one.html">Find Out More</a>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-6 text-center">
-                <div class="mt-5 border-rounded">
-                    <img src="assets/img/sunflower.jpg" alt="Image of some sunflowers." class="section-image">
-                    <h3 class="h4 mb-2">FARMING</h3>
-                    <p class="text-muted mb-4">Gain insight on the struggles farmers walk into and how they jump over obstacles to be more sustainable.</p>
-                    <a class="btn btn-primary btn-xl" href="page-two.html">Find Out More</a>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-6 text-center">
-                <div class="mt-5 border-rounded">
-                    <img src="assets/img/wind-power-plant.jpg" alt="Image of a wind pwer plant." class="section-image">
-                    <h3 class="h4 mb-2">ARTICLES</h3>
-                    <p class="text-muted mb-4">Dive into some research yourself and discover the wonders and tragedies of agriculture and farming today.</p>
-                    <a class="btn btn-primary btn-xl" href="page-three.html">Find Out More</a>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-        
-
-        <!-- our story-->
-        <section class="page-section2" id="aboutus">
-            <div class="container container2">
-                <div class="row">
-                    <div class="col-md-6">
-                        <h2>Our story...</h2>
-                        <p>Our story is one of learning from the land, understanding its whispers, and embracing the wisdom passed down through generations. It's a tale of trial and triumph, 
-                            where we witnessed firsthand the profound impact sustainable practices have on the health of our ecosystems, the resilience of our crops, and the well-being of
-                             our communities.</p>
-                        <p>Through seasons of researching collaborative endeavors and experimentation, we discovered that sustainable agriculture isn't merely a concept; it's a way of life, 
-                            an ethos deeply woven into the very essence of our existence.</p>
-                        <p>Today, as stewards of this vision, we stand committed to sharing our knowledge, experiences, and discoveries with you. We invite you to join us on this journey, to 
-                            explore the transformative power of sustainable farming, and together, cultivate a future where harmony with nature guides every furrow we plow and every seed we sow.</p>
-                    </div>
-                    <div class="col-md-6">
-                        <img src="assets/img/earthapple.jpg" alt="Image of an apple with the earth indented into it." class="img-fluid bordered-image">
-                    </div>
-                </div>
-            </div>
-        </section>
-
-
-        <!--quote-->
-        <section class="page-section bg-dark text-white mt-2" style="background-color: rgba(139,69,16,0.9)">
-            <div class="container px-4 px-lg-5 text-center mt-3">
-                <h2 class="mb-4">“Sustainability is here to stay or we may not be.”</h2>
-                <h6 class="mb-4">— Niall FitzGerald</h6>
-            </div>
-        </section>
-      
-  
-        <!-- Footer-->
-        <footer class="bg-light py-5">
-            <p class="text-center">
-                <a href="#top">GO BACK UP</a>   
-               </p>
-            <div class="container px-4 px-lg-5"><div class="small text-center">Copyright &copy; 2023 - Green Grove</div></div>
-        </footer>
-        <!-- Bootstrap core JS-->
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
-        <!-- SimpleLightbox plugin JS-->
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/SimpleLightbox/2.1.0/simpleLightbox.min.js"></script>
-        <!-- Core theme JS-->
-        <script src="js/scripts.js"></script>
-    </body>
 </html>
